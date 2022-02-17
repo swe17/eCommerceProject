@@ -1,0 +1,42 @@
+<div class="p2">
+    <div class="wrapper rounded bg-white">
+        <div *ngIf="!data.login.value.loggedIn; else loggedIn">
+            <div class="card text-black  mb-0" style="max-width: 30rem;">
+                <div class="card-header bg-primary" style="max-width: 30rem;">
+                    <h3>Log in</h3>
+                </div>
+                <div class="card-body" style="max-width: 30rem;" style="background-color:#BACC81;">
+                    <form [formGroup]="userForm" (ngSubmit)="onLogin()">
+
+
+                        <div class="form-group">
+                            <label>UserName</label>
+                            <input type="text" placeholder="Enter the username" class="form-control" formControlName="userName">
+                            <div *ngIf="getControl.userName.touched && getControl.userName.invalid" class="text-danger">
+                                <div *ngIf="getControl.userName.errors.required">userName is required.</div>
+                                <div *ngIf="getControl.userName.errors.userName">userName seems invalid.</div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="form-group">
+                                <label>Password</label>
+                                <input type="password" placeholder="Enter the Password" class="form-control" formControlName="Password">
+                                <div *ngIf="getControl.Password.touched && getControl.Password.invalid" class="text-danger">
+                                    <div *ngIf="getControl.Password.errors.required">Password is required.</div>
+                                    <div *ngIf="getControl.Password.errors.Password">Password seems invalid.</div>
+                                </div>
+                            </div>
+                            <div><br>
+                                <button class="btn btn-danger btn-block">Login</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+        <ng-template #loggedIn>
+            <h2>Hi,{{data.login.value.Name}}</h2>
+        </ng-template>
+    </div>
+</div>

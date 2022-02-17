@@ -1,0 +1,82 @@
+[{
+        "image": "./assets/laptop1.jpeg",
+        "description": "Intel® Evo™ platform powered by Intel® Core™ i5 processor Windows 10 Home 64 35.56 cm (14) diagonal, WUXGA (1920 x 1200), IPS, micro-edge, anti-glare NVIDIA® GeForce® GTX 1650 Ti with Max-Q design (4 GB GDDR6 dedicated) 16 GB DDR4-3200 SDRAM (onboard) 512 GB PCIe® NVMe™ TLC M.2 SSD Starting at 1.49 kg389U8PA",
+        "rate": 94999,
+        "offer": "₹50,990 23% off",
+        "topic": "ASUS VivoBook 15 (2021) Core i3 10th Gen",
+        "quantity": 1
+    },
+    {
+        "image": "./assets/laptop2.jpeg",
+        "description": "11th Generation Intel® Core™ i5 processor Windows 10 Home Intel® Iris® Xᵉ Graphics 16 GB DDR4-3200 MHz RAM (2 x 8 GB) 512 GB PCIe® NVMe™ M.2 SSD Starting at 1.5 kg 533U0PA",
+        "rate": 79999,
+        "offer": "₹50,990 23% off",
+        "topic": "ASUS Ryzen 3 Dual Core 3250U 3rd Gen",
+        "quantity": 1
+    },
+
+    {
+        "image": "./assets/laptop3.jpeg",
+        "description": "11th Generation Intel® Core™ i5 processor Windows 11 Home Intel® Iris® Xᵉ Graphics 8 GB DDR4-3200 MHz RAM (2 x 4 GB) 512 GB PCIe® NVMe™ M.2 SSD Starting at 1.5 kg533T9PA",
+        "rate": 119999,
+        "offer": "₹50,990 23% off",
+        "topic": "Lenovo IdeaPad 3 Core i3 11th Gen",
+        "quantity": 1
+    },
+    {
+        "image": "./assets/laptop4.jpeg",
+        "description": "11th Generation Intel® Core™ i7 processor Windows 11 Home 40.9 cm (16.1) diagonal, FHD (1920 x 1080), 144 Hz, 7 ms response time, IPS, micro-edge, anti-glare, Low Blue Light, 300 nits, 100% sRGB NVIDIA® GeForce RTX™ 3050 Ti Laptop GPU (4 GB GDDR6 dedicated) 16 GB DDR4-3200 MHz RAM (2 x 8 GB) 1 TB PCIe® NVMe™ TLC M.2 SSD Starting at 2.3 kg4D8E1PA",
+        "rate": 124999,
+        "offer": "₹50,990 23% off",
+        "topic": "ASUS VivoBook Ultra 14 Core i5 11th Gen",
+        "quantity": 1
+    },
+    {
+        "image": "./assets/laptop5.jpeg",
+        "description": "11th Generation Intel® Core™ i7 processor Windows 11 Home 40.9 cm (16.1) diagonal, QHD (2560 x 1440), IPS, micro-edge, anti-glare, Low Blue Light NVIDIA® GeForce RTX™ 3070 Max-Q (8 GB GDDR6 dedicated) 16 GB DDR4-3200 MHz RAM (2 x 8 GB) 1 TB PCIe® NVMe™ TLC M.2 SSD Starting at 2.3 kg4M1V4PA",
+        "rate": 154999,
+        "offer": "₹50,990 23% off",
+        "topic": "Lenovo IdeaPad Gaming 3 Core i5 11th Gen",
+        "quantity": 1
+    },
+    {
+        "image": "./assets/laptop6.jpeg",
+        "description": "AMD Ryzen™ 5 processor Windows 11 Home 39.62 cm (15.6) diagonal, FHD (1920 x 1080), IPS, micro-edge, anti-glare NVIDIA® GeForce® GTX 1650 (4 GB GDDR6 dedicated) 8 GB DDR4-3200 MHz RAM (1 x 8 GB) 512 GB PCIe® NVMe™ M.2 SSD Starting at 1.98 kg 589X6PA",
+        "rate": 109999,
+        "offer": "₹50,990 23% off",
+        "topic": "DELL Inspiron Ryzen 3 Dual Core 3250U",
+        "quantity": 1
+    },
+    {
+        "image": "./assets/laptop7.jpeg",
+        "description": "Intel® Evo™ platform powered by Intel® Core™ i5 processor Windows 10 Home Single Language 64 33.8 cm (13.3) diagonal FHD (1920 X 1080), IPS, edge-to-edge glass, micro-edge NVIDIA® GeForce® MX450 (2 GB GDDR6 dedicated) 16 GB DDR4-2933 SDRAM (onboard) 512 GB PCIe® NVMe™ TLC M.2 SSD 1.31 kg457N7PA",
+        "rate": 99999,
+        "offer": "₹50,990 23% off",
+        "topic": "ASUS VivoBook K15 OLED (2021) Core i3 11th Gen",
+        "quantity": 1
+    },
+    {
+        "image": "./assets/laptop8.jpeg",
+        "description": "10th Generation Intel® Core™ i3 processor Windows 10 Pro 64 39.62 cm (15.6) diagonal, FHD (1920 x 1080), IPS, narrow bezel, anti-glare Intel® UHD Graphics 8 GB DDR4-2666 MHz RAM (1 x 8 GB) 512 GB PCIe® NVMe™ SSD Starting at 1.74 kg 53L45PA",
+        "rate": 79561,
+        "offer": "₹50,990 23% off",
+        "topic": "Lenovo ThinkBook 13s Core i5 11th Gen",
+        "quantity": 1
+    },
+    {
+        "image": "./assets/laptop9.jpeg",
+        "description": "AMD A4-Series APU processor Chrome OS™ 35.56 cm (14) diagonal, HD (1366 x 768), anti-glare, 220 nits, 45% NTSC AMD Radeon™ R4 Graphics 4 GB DDR4-1866 MHz RAM (onboard) 32 GB eMMC Starting at 1.57 kg7QU82PA",
+        "rate": 90062,
+        "offer": "₹50,990 23% off",
+        "topic": "APPLE 2020 Macbook Air M1",
+        "quantity": 1
+    },
+    {
+        "image": "./assets/laptop10.jpeg",
+        "description": "11th Generation Intel® Core™ i5 processor Windows 11 Home 35.56 cm (14) diagonal, FHD (1920 x 1080), IPS, micro-edge, BrightView Intel® Iris® Xᵉ Graphics 8 GB DDR4-3200 MHz RAM (2 x 4 GB) 512 GB PCIe® NVMe™ M.2 SSD 1.41 kg50N46PA",
+        "rate": 104999,
+        "offer": "₹50,990 23% off",
+        "topic": "DELL Inspiron Core i3 10th Gen",
+        "quantity": 1
+    }
+]

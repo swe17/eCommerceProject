@@ -1,0 +1,45 @@
+.card {
+    border: 1px;
+    border-radius: 4px;
+    padding: 2rem;
+}
+
+.btn {
+    margin-right: 50px;
+}
+
+.card2 {
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 35px;
+}
+
+td {
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+}
+
+td:first-child {
+    padding-left: 0;
+}
+
+td:last-child {
+    padding-right: 0;
+}
+
+.fa fa-plus {
+    margin-top: 10%;
+}
+
+.fa fa-plus {
+    margin-left: 10%;
+}
+
+
+/* 
+.card3 {
+    width: 100px;
+    text-align: center;
+    border: 1px;
+    padding: 5px;
+} */

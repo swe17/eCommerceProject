@@ -1,0 +1,54 @@
+<!-- <div class="container">
+    <div *ngFor="let data of config let i=index">
+        <img src="{{config[i].image}}" />
+    </div> -->
+<!-- <table>
+                <tr>
+                    <td><img src="{{config[i].image}}"></td>
+
+                    <td>
+                        <a routerLink="/detailedView" (click)="detail(i)">
+                            <h3><b>{{config[i].topic}}</b></h3>
+                        </a> <br>{{config[i].description}}</td>
+
+                    <td>
+                        <h2>{{config[i].rate}}</h2>
+                        {{config[i].offer}}
+                    </td>
+                </tr>
+            </table> -->
+<div class="container">
+    <div *ngFor="let data of config let i=index">
+        <div class="card" style="max-width:100%;">
+
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-4">
+                    <img src="{{config[i].image}}">
+                </div>
+                <div class="col-6col-sm-6 col-md-5">
+
+                    <h3><b>{{config[i].topic}}</b></h3>
+                    <br>{{config[i].description}}
+                </div>
+                <div class="col-6 col-sm-6 col-md-3">
+                    <h2>{{config[i].rate}}</h2>
+                    {{config[i].offer}}<br><br>
+
+                    <!-- <button type="button" class="btn" (click)="quantityPlus(i)"><i class="fa fa-plus" ></i></button> {{quantity}}
+                    <button type="button" class="btn" (click)="quantityMinus(i)"><i class="fa fa-minus"></i></button> -->
+
+                    <button type="button" (click)="quantityPlus(i)" class="plus">+</button> {{config[i].quantity}}
+                    <button type="button" (click)="quantityMinus(i)" class="minus">-</button>
+                </div>
+            </div>
+
+            <div class="col-12">
+                <div class="card-body">
+                    <a class="btn btn-primary" (click)="cart(i)">Add To Cart</a>
+
+                    <a href="#" class="btn btn-warning">Buy now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

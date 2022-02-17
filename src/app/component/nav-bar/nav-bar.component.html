@@ -1,0 +1,45 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <div class="container-fluid">
+        <div class="searchBar">
+            <h2>e-Commerence</h2>
+        </div>
+        <div class="d-flex">
+            <input class="form-control me-2" [(ngModel)]="searchWord" type="search" placeholder="Search">
+            <button class="btn btn-dark" routerLink="product/search" (click)="search()">Search</button></div>
+
+        <div class="navEelement">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+            <div class="outline">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" routerLink="home" routerLinkActive="active">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" routerLink="product" routerLinkActive="active">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <div *ngIf="!data.login.value.loggedIn; else loggedin">
+                                <a class="nav-link" routerLink="/login" routerLinkActive="active">Login</a>
+                            </div>
+                            <ng-template #loggedin>
+                                <a class="nav-link" routerLink="login">{{data.login.value.Name}}</a>
+                            </ng-template>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" routerLink="login" routerLinkActive="active" (click)="logout()">LogOut</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" routerLink="cart" routerLinkActive="active">Cart</a>
+                        </li>
+
+                        <i class="fa fa-shopping-cart" style="font-size:40px;"></i>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
